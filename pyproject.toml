@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "energy-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Moses McCall <mosesmc52@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.2.5"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+scipy = "^1.14.1"
+statsmodels = "^0.14.3"
+python-dotenv = "^1.0.1"
+fredapi = "^0.5.2"
+arch = "^7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
